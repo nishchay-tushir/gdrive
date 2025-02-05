@@ -9,7 +9,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 # MongoDB connection settings
-MONGO_URI = "mongodb://192.168.0.99:27017/"  # Replace with your MongoDB URI
+MONGO_URI = "mongodb://192.168.0.34:27017/"  # Replace with your MongoDB URI
 DATABASE_NAME = "scheq"  # Replace with your database name
 
 # Google Drive folder ID where backups will be uploaded
